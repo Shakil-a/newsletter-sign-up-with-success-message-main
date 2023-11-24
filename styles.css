@@ -68,7 +68,7 @@ ul {
     border: 0;
 }
 
-.submit-button:hover{
+.submit-button:hover, .dismiss-button:hover{
     text-shadow: 0px 0px 0.5px hsl(0, 0%, 100%);
     box-shadow: 0px 0px 20px hsl(4, 100%, 67%);
     cursor: pointer;
@@ -77,4 +77,32 @@ ul {
 #email:hover{
     cursor: pointer;
     box-shadow: 0px 0px 2px hsl(0, 0%, 5%);
+}
+
+.success-message-card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.success-message-header{
+    font-size: 40px;
+}
+
+.dismiss-button{
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    margin-top: 10px;
+}
+
+.dismiss-button:hover{
+    text-shadow: 0px 0px 0.5px hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 20px hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
 }
