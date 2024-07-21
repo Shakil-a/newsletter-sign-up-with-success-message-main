@@ -79,6 +79,7 @@
   .email-container{
     display: grid;
     gap: 0.5em;
+    margin-top: 2em;
   }
 
   #email-input{
@@ -106,4 +107,35 @@
 
 #form-submit-btn:hover{
   cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  body{
+    background-color: var(--Charcoal-Grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    padding: 25px;
+    border-radius: 30px;
+  }
+
+  .container-content{
+    gap: 0;
+    padding: 80px 20px 20px 20px;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  .checked-list {
+    gap: 0;
+  }
 }
