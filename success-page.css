@@ -43,67 +43,27 @@
     overflow-wrap: break-word;
   }
 
-  .container-content{
-    padding: 25px;
+  .successMessage-container{
+    padding: 8rem 1rem;
     display: grid;
-    gap: 1.2em;
+    gap: 2em;
   }
 
-  .container-header{
-    font-size: 2.2rem;
-    font-weight: var(--Fw-bold);
+  h2{
+    font-size: 2.5rem;
+    line-height: 1em;
   }
 
-  .email-containter{
-    display: grid;
-    gap: 0.5rem;
-  }
-
-  .checked-list{
-    padding: 0;
-    list-style: none;
-    display: grid;
-    gap: 0.5rem;
-  }
-
-  ul li{
-    display: flex;
-    align-items: flex-start;
-    gap: 1.2rem;
-  }
-
-  ul li::before {
-    content: url('./assets/images/icon-list.svg');
-  }
-
-  .email-container{
-    display: grid;
-    gap: 0.5em;
-  }
-
-  #email-input{
-    padding: 1.1rem 1.2rem;
-    border-radius: 0.5rem;
-    border: 1px solid grey;
-}
-
-#form-submit-btn{
+  button{
     padding: 1.1rem 1.2rem;
     border: none;
     border-radius: 0.5rem;
     color: var(--White);
     background-color: var(--Dark-Slate-Grey);
-    margin-top: 0.8rem;
     font-weight: var(--Fw-bold);
-}
+    margin-top: 18em;
+  }
 
-.above-input{
-  display: flex;
-  justify-content: space-between;
-  font-size: var(--Fs-s);
-  font-weight: var(--Fw-bold);
-}
-
-#form-submit-btn:hover{
-  cursor: pointer;
-}
+  button:hover{
+    cursor: pointer;
+  }

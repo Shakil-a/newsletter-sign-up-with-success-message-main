@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
       if (error) {
         errorDiv.textContent = error;
-        errorDiv.style.color = 'orange';
-        userEmailInput.style.borderColor = 'orange';
+        errorDiv.style.color = 'hsl(4, 100%, 67%)';
+        userEmailInput.style.borderColor = 'hsl(4, 100%, 67%)';
       } else {
         window.location.href = 'success-page.html';
       }
