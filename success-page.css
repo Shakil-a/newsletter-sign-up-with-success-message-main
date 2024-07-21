@@ -67,3 +67,24 @@
   button:hover{
     cursor: pointer;
   }
+
+  @media screen and (min-width: 600px) {
+    body{
+      background-color: var(--Charcoal-Grey);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .successMessage-container{
+    background: var(--White);
+    width: 40%;
+    padding: 40px;
+    border-radius: 20px;
+    }
+
+    button{
+      margin-top: 1em;
+    }
+  }
